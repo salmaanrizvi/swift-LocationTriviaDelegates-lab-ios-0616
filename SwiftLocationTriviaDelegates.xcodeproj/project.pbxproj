@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		2B5A68BA1D36B63B00145CF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A68B91D36B63B00145CF2 /* AppDelegate.swift */; };
-		2B5A68BC1D36B63B00145CF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A68BB1D36B63B00145CF2 /* ViewController.swift */; };
 		2B5A68BF1D36B63B00145CF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5A68BD1D36B63B00145CF2 /* Main.storyboard */; };
 		2B5A68C11D36B63B00145CF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B5A68C01D36B63B00145CF2 /* Assets.xcassets */; };
 		2B5A68C41D36B63B00145CF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5A68C21D36B63B00145CF2 /* LaunchScreen.storyboard */; };
 		2B5A68CF1D36B63B00145CF2 /* SwiftLocationTriviaDelegatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A68CE1D36B63B00145CF2 /* SwiftLocationTriviaDelegatesTests.swift */; };
 		2B5A68DA1D36B63B00145CF2 /* SwiftLocationTriviaDelegatesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A68D91D36B63B00145CF2 /* SwiftLocationTriviaDelegatesUITests.swift */; };
+		2B81D8E61D3D2B7B00BB3EDD /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B81D8E51D3D2B7B00BB3EDD /* Location.swift */; };
+		2B89B02D1D37E6F4000F463B /* LocationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B89B02C1D37E6F4000F463B /* LocationsTableViewController.swift */; };
+		2B89B02F1D37E70F000F463B /* AddLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B89B02E1D37E70F000F463B /* AddLocationViewController.swift */; };
 		6497C32721F16CFFAB8C9962 /* Pods_SwiftLocationTriviaDelegates.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C2A5B9EA580BEB6A38E906 /* Pods_SwiftLocationTriviaDelegates.framework */; };
 		A1A331B85A613533E54A7009 /* Pods_SwiftLocationTriviaDelegatesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E2BF85AA8E4FCFE6EE239D /* Pods_SwiftLocationTriviaDelegatesUITests.framework */; };
 		EB005C165BF2C14602993780 /* Pods_SwiftLocationTriviaDelegatesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B01EB9A7F286E819C58968 /* Pods_SwiftLocationTriviaDelegatesTests.framework */; };
@@ -43,7 +45,6 @@
 		29E2BF85AA8E4FCFE6EE239D /* Pods_SwiftLocationTriviaDelegatesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftLocationTriviaDelegatesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B5A68B61D36B63B00145CF2 /* SwiftLocationTriviaDelegates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLocationTriviaDelegates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B5A68B91D36B63B00145CF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2B5A68BB1D36B63B00145CF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2B5A68BE1D36B63B00145CF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B5A68C01D36B63B00145CF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B5A68C31D36B63B00145CF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +55,9 @@
 		2B5A68D51D36B63B00145CF2 /* SwiftLocationTriviaDelegatesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLocationTriviaDelegatesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B5A68D91D36B63B00145CF2 /* SwiftLocationTriviaDelegatesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLocationTriviaDelegatesUITests.swift; sourceTree = "<group>"; };
 		2B5A68DB1D36B63B00145CF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B81D8E51D3D2B7B00BB3EDD /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		2B89B02C1D37E6F4000F463B /* LocationsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsTableViewController.swift; sourceTree = "<group>"; };
+		2B89B02E1D37E70F000F463B /* AddLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddLocationViewController.swift; sourceTree = "<group>"; };
 		50C2A5B9EA580BEB6A38E906 /* Pods_SwiftLocationTriviaDelegates.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftLocationTriviaDelegates.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAAFFEA35590D14CA298931D /* Pods-SwiftLocationTriviaDelegates.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLocationTriviaDelegates.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftLocationTriviaDelegates/Pods-SwiftLocationTriviaDelegates.release.xcconfig"; sourceTree = "<group>"; };
 		AC600A63D551947EB93B14C5 /* Pods-SwiftLocationTriviaDelegatesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLocationTriviaDelegatesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftLocationTriviaDelegatesTests/Pods-SwiftLocationTriviaDelegatesTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,12 +118,14 @@
 		2B5A68B81D36B63B00145CF2 /* SwiftLocationTriviaDelegates */ = {
 			isa = PBXGroup;
 			children = (
+				2B81D8E51D3D2B7B00BB3EDD /* Location.swift */,
 				2B5A68B91D36B63B00145CF2 /* AppDelegate.swift */,
-				2B5A68BB1D36B63B00145CF2 /* ViewController.swift */,
 				2B5A68BD1D36B63B00145CF2 /* Main.storyboard */,
 				2B5A68C01D36B63B00145CF2 /* Assets.xcassets */,
 				2B5A68C21D36B63B00145CF2 /* LaunchScreen.storyboard */,
 				2B5A68C51D36B63B00145CF2 /* Info.plist */,
+				2B89B02C1D37E6F4000F463B /* LocationsTableViewController.swift */,
+				2B89B02E1D37E70F000F463B /* AddLocationViewController.swift */,
 			);
 			path = SwiftLocationTriviaDelegates;
 			sourceTree = "<group>";
@@ -427,7 +433,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B5A68BC1D36B63B00145CF2 /* ViewController.swift in Sources */,
+				2B89B02D1D37E6F4000F463B /* LocationsTableViewController.swift in Sources */,
+				2B89B02F1D37E70F000F463B /* AddLocationViewController.swift in Sources */,
+				2B81D8E61D3D2B7B00BB3EDD /* Location.swift in Sources */,
 				2B5A68BA1D36B63B00145CF2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
