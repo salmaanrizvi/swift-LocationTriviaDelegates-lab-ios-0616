@@ -13,6 +13,7 @@ class AddLocationViewController: UIViewController {
     weak var delegate: AddLocationViewControllerDelegate?
     
     @IBOutlet weak var locationTextField: UITextField!
+    @IBOutlet weak var saveButton: UIBarButtonItem!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,6 +32,14 @@ class AddLocationViewController: UIViewController {
     @IBAction func submitButtonTapped(sender: AnyObject) {
         if let text = locationTextField.text {
             delegate?.addLocationViewController(self, didAddLocationNamed: text)
+        }
+    }
+    @IBAction func locationTextFieldEdited(sender: AnyObject) {
+        if let text = locationTextField.text, delegate = delegate {
+            if !(delegate.addLocationViewController(self, shouldAllowLocationNamed: text)) {
+                saveButton.enabled = false
+            }
+            else { saveButton.enabled = true }
         }
     }
 

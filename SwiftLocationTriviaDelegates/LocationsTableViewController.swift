@@ -15,7 +15,6 @@ class LocationsTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
     }
 
     override func didReceiveMemoryWarning() {
@@ -66,11 +65,9 @@ extension LocationsTableViewController: AddLocationViewControllerDelegate {
     }
     
     func addLocationViewController(viewController: AddLocationViewController, didAddLocationNamed name: String) {
-        if addLocationViewController(viewController, shouldAllowLocationNamed: name) {
-            locations.append(Location(name: name, trivia: []))
-            viewController.dismissViewControllerAnimated(true, completion: nil)
-            self.tableView.reloadData()
-        }
+        locations.append(Location(name: name, trivia: []))
+        viewController.dismissViewControllerAnimated(true, completion: nil)
+        self.tableView.reloadData()
     }
 }
 

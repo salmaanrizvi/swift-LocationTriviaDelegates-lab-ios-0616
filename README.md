@@ -33,24 +33,28 @@ Apple is fond of using delegation for this exact circumstance in its own classes
 
 ## Instructions
 
-You've been provided with two view controllers -- a `UITableViewController` with the locations (`LocationsTableViewController`), and a simple `UIViewController` for adding new ones (`AddLocationViewController`). Note that there is no shared data store in this project.
+First, create two view controllers -- a `UITableViewController` with the locations (`LocationsTableViewController`), and a simple `UIViewController` for adding new locations (`AddLocationViewController`). Note that there is no shared data store in this project.
 
 Your goal is to do the following:
 
-1. Create a custom protocol for the delegate of the `FISAddLocationViewController` class. Name it `FISAddLocationViewControllerDelegate`, and make sure it inherits from the `NSObject` protocol. It should have three required methods:
-    * A method that alerts the delegate that the user has cancelled the Add Location VC.
-    * A method that asks the delegate if the given location name is valid. This method should enforce that there are no duplicate location names.
-    * A method that alerts the delegate that the user has confirmed their new location name.
+1. Create a custom protocol for the delegate of the `AddLocationViewController` class. Name it `AddLocationViewControllerDelegate`. Make sure to include the `class` keyword after the protocol declaration (i.e. `protocol AddLocationViewControllerDelegate: class` . This indicates that the protocol we just created can only be adopted by classes (not structs or enums) - we do this is for memory management reasons that we'll discuss later. It should have three required functions:
+    * A function that alerts the delegate that the user has tapped 'Cancel' on the `AddLocationViewController`.
+    * A function that asks the delegate if the submitted location name is valid. This function should enforce that there are no duplicate location names.
+    * A function that alerts the delegate that the user has confirmed their new location name.
     
-    Think about what you would name these methods for a bit. [Naming delegate protocol methods](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/CodingGuidelines/Articles/NamingMethods.html#//apple_ref/doc/uid/20001282-1001839-BCIEJEHH) is a tricky business -- it's usually best to follow Apple's lead where possible. I'd recommend these names for the methods above:
+    Think about what you would name these functions for a bit. Naming delegate protocol functions is a tricky business -- it's usually best to follow Apple's lead where possible. Check out [their documentation](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIImagePickerControllerDelegate_Protocol/#//apple_ref/occ/intfm/UIImagePickerControllerDelegate/imagePickerController:didFinishPickingMediaWithInfo:) on `UIImagePickerControllerDelegate`. 
     
-    * `-(void)addLocationViewControllerDidCancel:(FISAddLocationViewController *)viewController`
-    * `-(BOOL)addLocationViewController:(FISAddLocationViewController *)viewController shouldAllowLocationNamed:(NSString *)locationName`
-    * `-(void)addLocationViewController:(FISAddLocationViewController *)viewController didAddLocationNamed:(NSString *)locationName`
+	Since our `LocationsTableviewController` adopts the `AddLocationViewControllerDelegate` protocol, it could potentially be the delegate for multiple different `AddLocationViewControllers`s.  Due to this, these delegate protocol functions would each ideally take at least one argument - an argument for the sender (in this case, an `AddLocationViewController`. The latter two functions should also take the submitted location name as an argument. Based on these recommendations and Apple's naming standards, I'd recommend these names for the functions above:
+    
+    * `func addLocationViewControllerDidCancel(viewController: AddLocationViewController)`
+    
+    * `func addLocationViewController(viewController: AddLocationViewController, shouldAllowLocationNamed name: String) -> Bool`
+    
+    * `func addLocationViewController(viewController: AddLocationViewController, didAddLocationNamed name: String)`
 
-2. Add a property of type `id<FISAddLocationViewControllerDelegate>` to `FISAddLocationViewController`. Call it `delegate`. For memory reasons we'll discuss later, delegate properties should almost always be `weak`. The odd type `id<...>` means "an object of any type (i.e., `id`), as long as it conforms to the given protocol(s)."
+2. Add a `weak` property of type `AddLocationViewControllerDelegate` to `AddLocationViewController` called `delegate`. For memory management reasons that we won't get into her, delegate properties should almost always be `weak`.
 
-3. Have `FISAddLocationViewController` call the methods on the delegate when appropriate:
+3. Have `AddLocationViewController` call the functions on the delegate when appropriate:
     * When the user types in the text field, check if the location name is valid, and only enable the save button if it is. (Remember: wire the "Editing Did Change" event of the field to an action method to run some code whenever the text of a field changes.)
     * If the user hits the "Cancel" or "Save" buttons, call the appropriate delegate methods.
 
