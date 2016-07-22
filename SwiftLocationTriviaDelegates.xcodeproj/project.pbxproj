@@ -7,183 +7,79 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B5A68BA1D36B63B00145CF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A68B91D36B63B00145CF2 /* AppDelegate.swift */; };
-		2B5A68BF1D36B63B00145CF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5A68BD1D36B63B00145CF2 /* Main.storyboard */; };
-		2B5A68C11D36B63B00145CF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B5A68C01D36B63B00145CF2 /* Assets.xcassets */; };
-		2B5A68C41D36B63B00145CF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5A68C21D36B63B00145CF2 /* LaunchScreen.storyboard */; };
-		2B5A68CF1D36B63B00145CF2 /* SwiftLocationTriviaDelegatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A68CE1D36B63B00145CF2 /* SwiftLocationTriviaDelegatesTests.swift */; };
-		2B5A68DA1D36B63B00145CF2 /* SwiftLocationTriviaDelegatesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A68D91D36B63B00145CF2 /* SwiftLocationTriviaDelegatesUITests.swift */; };
-		2B81D8E61D3D2B7B00BB3EDD /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B81D8E51D3D2B7B00BB3EDD /* Location.swift */; };
-		2B89B02D1D37E6F4000F463B /* LocationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B89B02C1D37E6F4000F463B /* LocationsTableViewController.swift */; };
-		2B89B02F1D37E70F000F463B /* AddLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B89B02E1D37E70F000F463B /* AddLocationViewController.swift */; };
-		6497C32721F16CFFAB8C9962 /* Pods_SwiftLocationTriviaDelegates.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C2A5B9EA580BEB6A38E906 /* Pods_SwiftLocationTriviaDelegates.framework */; };
-		A1A331B85A613533E54A7009 /* Pods_SwiftLocationTriviaDelegatesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E2BF85AA8E4FCFE6EE239D /* Pods_SwiftLocationTriviaDelegatesUITests.framework */; };
-		EB005C165BF2C14602993780 /* Pods_SwiftLocationTriviaDelegatesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B01EB9A7F286E819C58968 /* Pods_SwiftLocationTriviaDelegatesTests.framework */; };
+		2B5C58E11D42629200273743 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5C58E01D42629200273743 /* AppDelegate.swift */; };
+		2B5C58E81D42629200273743 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B5C58E71D42629200273743 /* Assets.xcassets */; };
+		2B5C58EB1D42629200273743 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5C58E91D42629200273743 /* LaunchScreen.storyboard */; };
+		2B5C58FD1D4263BB00273743 /* AddLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5C58FC1D4263BB00273743 /* AddLocationViewController.swift */; };
+		2B5C58FF1D4263F300273743 /* LocationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5C58FE1D4263F300273743 /* LocationsTableViewController.swift */; };
+		2B5C59011D42641200273743 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5C59001D42641200273743 /* Location.swift */; };
+		2B5C59051D4264BA00273743 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5C59041D4264BA00273743 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		2B5A68CB1D36B63B00145CF2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2B5A68AE1D36B63B00145CF2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2B5A68B51D36B63B00145CF2;
-			remoteInfo = SwiftLocationTriviaDelegates;
-		};
-		2B5A68D61D36B63B00145CF2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2B5A68AE1D36B63B00145CF2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2B5A68B51D36B63B00145CF2;
-			remoteInfo = SwiftLocationTriviaDelegates;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		091091ECFF4DA7AF284BFEF1 /* Pods-SwiftLocationTriviaDelegatesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLocationTriviaDelegatesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftLocationTriviaDelegatesUITests/Pods-SwiftLocationTriviaDelegatesUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		1FB7DF1EC463D717603BB426 /* Pods-SwiftLocationTriviaDelegatesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLocationTriviaDelegatesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftLocationTriviaDelegatesUITests/Pods-SwiftLocationTriviaDelegatesUITests.release.xcconfig"; sourceTree = "<group>"; };
-		206DBC6DE6748A0A1334795E /* Pods-SwiftLocationTriviaDelegatesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLocationTriviaDelegatesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftLocationTriviaDelegatesTests/Pods-SwiftLocationTriviaDelegatesTests.debug.xcconfig"; sourceTree = "<group>"; };
-		29E2BF85AA8E4FCFE6EE239D /* Pods_SwiftLocationTriviaDelegatesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftLocationTriviaDelegatesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B5A68B61D36B63B00145CF2 /* SwiftLocationTriviaDelegates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLocationTriviaDelegates.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B5A68B91D36B63B00145CF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2B5A68BE1D36B63B00145CF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2B5A68C01D36B63B00145CF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2B5A68C31D36B63B00145CF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2B5A68C51D36B63B00145CF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2B5A68CA1D36B63B00145CF2 /* SwiftLocationTriviaDelegatesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLocationTriviaDelegatesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B5A68CE1D36B63B00145CF2 /* SwiftLocationTriviaDelegatesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLocationTriviaDelegatesTests.swift; sourceTree = "<group>"; };
-		2B5A68D01D36B63B00145CF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2B5A68D51D36B63B00145CF2 /* SwiftLocationTriviaDelegatesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLocationTriviaDelegatesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B5A68D91D36B63B00145CF2 /* SwiftLocationTriviaDelegatesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLocationTriviaDelegatesUITests.swift; sourceTree = "<group>"; };
-		2B5A68DB1D36B63B00145CF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2B81D8E51D3D2B7B00BB3EDD /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
-		2B89B02C1D37E6F4000F463B /* LocationsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsTableViewController.swift; sourceTree = "<group>"; };
-		2B89B02E1D37E70F000F463B /* AddLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddLocationViewController.swift; sourceTree = "<group>"; };
-		50C2A5B9EA580BEB6A38E906 /* Pods_SwiftLocationTriviaDelegates.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftLocationTriviaDelegates.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAAFFEA35590D14CA298931D /* Pods-SwiftLocationTriviaDelegates.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLocationTriviaDelegates.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftLocationTriviaDelegates/Pods-SwiftLocationTriviaDelegates.release.xcconfig"; sourceTree = "<group>"; };
-		AC600A63D551947EB93B14C5 /* Pods-SwiftLocationTriviaDelegatesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLocationTriviaDelegatesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftLocationTriviaDelegatesTests/Pods-SwiftLocationTriviaDelegatesTests.release.xcconfig"; sourceTree = "<group>"; };
-		C1E40DF12D59C33E3E267139 /* Pods-SwiftLocationTriviaDelegates.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLocationTriviaDelegates.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftLocationTriviaDelegates/Pods-SwiftLocationTriviaDelegates.debug.xcconfig"; sourceTree = "<group>"; };
-		E2B01EB9A7F286E819C58968 /* Pods_SwiftLocationTriviaDelegatesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftLocationTriviaDelegatesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B5C58DD1D42629200273743 /* SwiftLocationTriviaDelegates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLocationTriviaDelegates.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B5C58E01D42629200273743 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B5C58E71D42629200273743 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B5C58EA1D42629200273743 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B5C58EC1D42629200273743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B5C58FC1D4263BB00273743 /* AddLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddLocationViewController.swift; path = ../AddLocationViewController.swift; sourceTree = "<group>"; };
+		2B5C58FE1D4263F300273743 /* LocationsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationsTableViewController.swift; path = ../LocationsTableViewController.swift; sourceTree = "<group>"; };
+		2B5C59001D42641200273743 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Location.swift; path = ../Location.swift; sourceTree = "<group>"; };
+		2B5C59041D4264BA00273743 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2B5A68B31D36B63B00145CF2 /* Frameworks */ = {
+		2B5C58DA1D42629200273743 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6497C32721F16CFFAB8C9962 /* Pods_SwiftLocationTriviaDelegates.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2B5A68C71D36B63B00145CF2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EB005C165BF2C14602993780 /* Pods_SwiftLocationTriviaDelegatesTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2B5A68D21D36B63B00145CF2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A1A331B85A613533E54A7009 /* Pods_SwiftLocationTriviaDelegatesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2B5A68AD1D36B63B00145CF2 = {
+		2B5C58D41D42629200273743 = {
 			isa = PBXGroup;
 			children = (
-				2B5A68B81D36B63B00145CF2 /* SwiftLocationTriviaDelegates */,
-				2B5A68CD1D36B63B00145CF2 /* SwiftLocationTriviaDelegatesTests */,
-				2B5A68D81D36B63B00145CF2 /* SwiftLocationTriviaDelegatesUITests */,
-				2B5A68B71D36B63B00145CF2 /* Products */,
-				84D7BF78B894AC660346AC92 /* Pods */,
-				E8A580A52AD96EB1FACFD3EA /* Frameworks */,
+				2B5C58DF1D42629200273743 /* SwiftLocationTriviaDelegates */,
+				2B5C58DE1D42629200273743 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2B5A68B71D36B63B00145CF2 /* Products */ = {
+		2B5C58DE1D42629200273743 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2B5A68B61D36B63B00145CF2 /* SwiftLocationTriviaDelegates.app */,
-				2B5A68CA1D36B63B00145CF2 /* SwiftLocationTriviaDelegatesTests.xctest */,
-				2B5A68D51D36B63B00145CF2 /* SwiftLocationTriviaDelegatesUITests.xctest */,
+				2B5C58DD1D42629200273743 /* SwiftLocationTriviaDelegates.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2B5A68B81D36B63B00145CF2 /* SwiftLocationTriviaDelegates */ = {
+		2B5C58DF1D42629200273743 /* SwiftLocationTriviaDelegates */ = {
 			isa = PBXGroup;
 			children = (
-				2B81D8E51D3D2B7B00BB3EDD /* Location.swift */,
-				2B5A68B91D36B63B00145CF2 /* AppDelegate.swift */,
-				2B5A68BD1D36B63B00145CF2 /* Main.storyboard */,
-				2B5A68C01D36B63B00145CF2 /* Assets.xcassets */,
-				2B5A68C21D36B63B00145CF2 /* LaunchScreen.storyboard */,
-				2B5A68C51D36B63B00145CF2 /* Info.plist */,
-				2B89B02C1D37E6F4000F463B /* LocationsTableViewController.swift */,
-				2B89B02E1D37E70F000F463B /* AddLocationViewController.swift */,
+				2B5C59041D4264BA00273743 /* Main.storyboard */,
+				2B5C58FC1D4263BB00273743 /* AddLocationViewController.swift */,
+				2B5C59001D42641200273743 /* Location.swift */,
+				2B5C58FE1D4263F300273743 /* LocationsTableViewController.swift */,
+				2B5C58E01D42629200273743 /* AppDelegate.swift */,
+				2B5C58E71D42629200273743 /* Assets.xcassets */,
+				2B5C58E91D42629200273743 /* LaunchScreen.storyboard */,
+				2B5C58EC1D42629200273743 /* Info.plist */,
 			);
 			path = SwiftLocationTriviaDelegates;
-			sourceTree = "<group>";
-		};
-		2B5A68CD1D36B63B00145CF2 /* SwiftLocationTriviaDelegatesTests */ = {
-			isa = PBXGroup;
-			children = (
-				2B5A68CE1D36B63B00145CF2 /* SwiftLocationTriviaDelegatesTests.swift */,
-				2B5A68D01D36B63B00145CF2 /* Info.plist */,
-			);
-			path = SwiftLocationTriviaDelegatesTests;
-			sourceTree = "<group>";
-		};
-		2B5A68D81D36B63B00145CF2 /* SwiftLocationTriviaDelegatesUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2B5A68D91D36B63B00145CF2 /* SwiftLocationTriviaDelegatesUITests.swift */,
-				2B5A68DB1D36B63B00145CF2 /* Info.plist */,
-			);
-			path = SwiftLocationTriviaDelegatesUITests;
-			sourceTree = "<group>";
-		};
-		84D7BF78B894AC660346AC92 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C1E40DF12D59C33E3E267139 /* Pods-SwiftLocationTriviaDelegates.debug.xcconfig */,
-				AAAFFEA35590D14CA298931D /* Pods-SwiftLocationTriviaDelegates.release.xcconfig */,
-				206DBC6DE6748A0A1334795E /* Pods-SwiftLocationTriviaDelegatesTests.debug.xcconfig */,
-				AC600A63D551947EB93B14C5 /* Pods-SwiftLocationTriviaDelegatesTests.release.xcconfig */,
-				091091ECFF4DA7AF284BFEF1 /* Pods-SwiftLocationTriviaDelegatesUITests.debug.xcconfig */,
-				1FB7DF1EC463D717603BB426 /* Pods-SwiftLocationTriviaDelegatesUITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		E8A580A52AD96EB1FACFD3EA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				50C2A5B9EA580BEB6A38E906 /* Pods_SwiftLocationTriviaDelegates.framework */,
-				E2B01EB9A7F286E819C58968 /* Pods_SwiftLocationTriviaDelegatesTests.framework */,
-				29E2BF85AA8E4FCFE6EE239D /* Pods_SwiftLocationTriviaDelegatesUITests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2B5A68B51D36B63B00145CF2 /* SwiftLocationTriviaDelegates */ = {
+		2B5C58DC1D42629200273743 /* SwiftLocationTriviaDelegates */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B5A68DE1D36B63B00145CF2 /* Build configuration list for PBXNativeTarget "SwiftLocationTriviaDelegates" */;
+			buildConfigurationList = 2B5C58EF1D42629200273743 /* Build configuration list for PBXNativeTarget "SwiftLocationTriviaDelegates" */;
 			buildPhases = (
-				FA5E1A4AF3553F4068D6AD58 /* [CP] Check Pods Manifest.lock */,
-				2B5A68B21D36B63B00145CF2 /* Sources */,
-				2B5A68B31D36B63B00145CF2 /* Frameworks */,
-				2B5A68B41D36B63B00145CF2 /* Resources */,
-				FF5B0182086B0226B790C532 /* [CP] Embed Pods Frameworks */,
-				ED0A4C4B4273C6C900116367 /* [CP] Copy Pods Resources */,
+				2B5C58D91D42629200273743 /* Sources */,
+				2B5C58DA1D42629200273743 /* Frameworks */,
+				2B5C58DB1D42629200273743 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -191,74 +87,25 @@
 			);
 			name = SwiftLocationTriviaDelegates;
 			productName = SwiftLocationTriviaDelegates;
-			productReference = 2B5A68B61D36B63B00145CF2 /* SwiftLocationTriviaDelegates.app */;
+			productReference = 2B5C58DD1D42629200273743 /* SwiftLocationTriviaDelegates.app */;
 			productType = "com.apple.product-type.application";
-		};
-		2B5A68C91D36B63B00145CF2 /* SwiftLocationTriviaDelegatesTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2B5A68E11D36B63B00145CF2 /* Build configuration list for PBXNativeTarget "SwiftLocationTriviaDelegatesTests" */;
-			buildPhases = (
-				09B3F95BDD911669C370BDCC /* [CP] Check Pods Manifest.lock */,
-				2B5A68C61D36B63B00145CF2 /* Sources */,
-				2B5A68C71D36B63B00145CF2 /* Frameworks */,
-				2B5A68C81D36B63B00145CF2 /* Resources */,
-				492BA08CFA6DC328A854C384 /* [CP] Embed Pods Frameworks */,
-				3DB25C4EAF20B447C2FB45F8 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2B5A68CC1D36B63B00145CF2 /* PBXTargetDependency */,
-			);
-			name = SwiftLocationTriviaDelegatesTests;
-			productName = SwiftLocationTriviaDelegatesTests;
-			productReference = 2B5A68CA1D36B63B00145CF2 /* SwiftLocationTriviaDelegatesTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		2B5A68D41D36B63B00145CF2 /* SwiftLocationTriviaDelegatesUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2B5A68E41D36B63B00145CF2 /* Build configuration list for PBXNativeTarget "SwiftLocationTriviaDelegatesUITests" */;
-			buildPhases = (
-				07604E6EC0DA683457821F07 /* [CP] Check Pods Manifest.lock */,
-				2B5A68D11D36B63B00145CF2 /* Sources */,
-				2B5A68D21D36B63B00145CF2 /* Frameworks */,
-				2B5A68D31D36B63B00145CF2 /* Resources */,
-				14389E09A3CE20B822245D9C /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2B5A68D71D36B63B00145CF2 /* PBXTargetDependency */,
-			);
-			name = SwiftLocationTriviaDelegatesUITests;
-			productName = SwiftLocationTriviaDelegatesUITests;
-			productReference = 2B5A68D51D36B63B00145CF2 /* SwiftLocationTriviaDelegatesUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2B5A68AE1D36B63B00145CF2 /* Project object */ = {
+		2B5C58D51D42629200273743 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Flatiron School";
 				TargetAttributes = {
-					2B5A68B51D36B63B00145CF2 = {
+					2B5C58DC1D42629200273743 = {
 						CreatedOnToolsVersion = 7.3;
-					};
-					2B5A68C91D36B63B00145CF2 = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = 2B5A68B51D36B63B00145CF2;
-					};
-					2B5A68D41D36B63B00145CF2 = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = 2B5A68B51D36B63B00145CF2;
 					};
 				};
 			};
-			buildConfigurationList = 2B5A68B11D36B63B00145CF2 /* Build configuration list for PBXProject "SwiftLocationTriviaDelegates" */;
+			buildConfigurationList = 2B5C58D81D42629200273743 /* Build configuration list for PBXProject "SwiftLocationTriviaDelegates" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -266,224 +113,48 @@
 				en,
 				Base,
 			);
-			mainGroup = 2B5A68AD1D36B63B00145CF2;
-			productRefGroup = 2B5A68B71D36B63B00145CF2 /* Products */;
+			mainGroup = 2B5C58D41D42629200273743;
+			productRefGroup = 2B5C58DE1D42629200273743 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2B5A68B51D36B63B00145CF2 /* SwiftLocationTriviaDelegates */,
-				2B5A68C91D36B63B00145CF2 /* SwiftLocationTriviaDelegatesTests */,
-				2B5A68D41D36B63B00145CF2 /* SwiftLocationTriviaDelegatesUITests */,
+				2B5C58DC1D42629200273743 /* SwiftLocationTriviaDelegates */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2B5A68B41D36B63B00145CF2 /* Resources */ = {
+		2B5C58DB1D42629200273743 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B5A68C41D36B63B00145CF2 /* LaunchScreen.storyboard in Resources */,
-				2B5A68C11D36B63B00145CF2 /* Assets.xcassets in Resources */,
-				2B5A68BF1D36B63B00145CF2 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2B5A68C81D36B63B00145CF2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2B5A68D31D36B63B00145CF2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				2B5C59051D4264BA00273743 /* Main.storyboard in Resources */,
+				2B5C58EB1D42629200273743 /* LaunchScreen.storyboard in Resources */,
+				2B5C58E81D42629200273743 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		07604E6EC0DA683457821F07 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		09B3F95BDD911669C370BDCC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		14389E09A3CE20B822245D9C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftLocationTriviaDelegatesUITests/Pods-SwiftLocationTriviaDelegatesUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3DB25C4EAF20B447C2FB45F8 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftLocationTriviaDelegatesTests/Pods-SwiftLocationTriviaDelegatesTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		492BA08CFA6DC328A854C384 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftLocationTriviaDelegatesTests/Pods-SwiftLocationTriviaDelegatesTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		ED0A4C4B4273C6C900116367 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftLocationTriviaDelegates/Pods-SwiftLocationTriviaDelegates-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FA5E1A4AF3553F4068D6AD58 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		FF5B0182086B0226B790C532 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftLocationTriviaDelegates/Pods-SwiftLocationTriviaDelegates-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		2B5A68B21D36B63B00145CF2 /* Sources */ = {
+		2B5C58D91D42629200273743 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B89B02D1D37E6F4000F463B /* LocationsTableViewController.swift in Sources */,
-				2B89B02F1D37E70F000F463B /* AddLocationViewController.swift in Sources */,
-				2B81D8E61D3D2B7B00BB3EDD /* Location.swift in Sources */,
-				2B5A68BA1D36B63B00145CF2 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2B5A68C61D36B63B00145CF2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2B5A68CF1D36B63B00145CF2 /* SwiftLocationTriviaDelegatesTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2B5A68D11D36B63B00145CF2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2B5A68DA1D36B63B00145CF2 /* SwiftLocationTriviaDelegatesUITests.swift in Sources */,
+				2B5C58E11D42629200273743 /* AppDelegate.swift in Sources */,
+				2B5C58FD1D4263BB00273743 /* AddLocationViewController.swift in Sources */,
+				2B5C59011D42641200273743 /* Location.swift in Sources */,
+				2B5C58FF1D4263F300273743 /* LocationsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		2B5A68CC1D36B63B00145CF2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2B5A68B51D36B63B00145CF2 /* SwiftLocationTriviaDelegates */;
-			targetProxy = 2B5A68CB1D36B63B00145CF2 /* PBXContainerItemProxy */;
-		};
-		2B5A68D71D36B63B00145CF2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2B5A68B51D36B63B00145CF2 /* SwiftLocationTriviaDelegates */;
-			targetProxy = 2B5A68D61D36B63B00145CF2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		2B5A68BD1D36B63B00145CF2 /* Main.storyboard */ = {
+		2B5C58E91D42629200273743 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2B5A68BE1D36B63B00145CF2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2B5A68C21D36B63B00145CF2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2B5A68C31D36B63B00145CF2 /* Base */,
+				2B5C58EA1D42629200273743 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -491,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		2B5A68DC1D36B63B00145CF2 /* Debug */ = {
+		2B5C58ED1D42629200273743 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -537,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		2B5A68DD1D36B63B00145CF2 /* Release */ = {
+		2B5C58EE1D42629200273743 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -576,9 +247,8 @@
 			};
 			name = Release;
 		};
-		2B5A68DF1D36B63B00145CF2 /* Debug */ = {
+		2B5C58F01D42629200273743 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1E40DF12D59C33E3E267139 /* Pods-SwiftLocationTriviaDelegates.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftLocationTriviaDelegates/Info.plist;
@@ -588,108 +258,38 @@
 			};
 			name = Debug;
 		};
-		2B5A68E01D36B63B00145CF2 /* Release */ = {
+		2B5C58F11D42629200273743 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAAFFEA35590D14CA298931D /* Pods-SwiftLocationTriviaDelegates.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftLocationTriviaDelegates/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironschool.SwiftLocationTriviaDelegates;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		2B5A68E21D36B63B00145CF2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 206DBC6DE6748A0A1334795E /* Pods-SwiftLocationTriviaDelegatesTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = SwiftLocationTriviaDelegatesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.flatironschool.SwiftLocationTriviaDelegatesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftLocationTriviaDelegates.app/SwiftLocationTriviaDelegates";
-			};
-			name = Debug;
-		};
-		2B5A68E31D36B63B00145CF2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC600A63D551947EB93B14C5 /* Pods-SwiftLocationTriviaDelegatesTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = SwiftLocationTriviaDelegatesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.flatironschool.SwiftLocationTriviaDelegatesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftLocationTriviaDelegates.app/SwiftLocationTriviaDelegates";
-			};
-			name = Release;
-		};
-		2B5A68E51D36B63B00145CF2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 091091ECFF4DA7AF284BFEF1 /* Pods-SwiftLocationTriviaDelegatesUITests.debug.xcconfig */;
-			buildSettings = {
-				INFOPLIST_FILE = SwiftLocationTriviaDelegatesUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.flatironschool.SwiftLocationTriviaDelegatesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = SwiftLocationTriviaDelegates;
-			};
-			name = Debug;
-		};
-		2B5A68E61D36B63B00145CF2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FB7DF1EC463D717603BB426 /* Pods-SwiftLocationTriviaDelegatesUITests.release.xcconfig */;
-			buildSettings = {
-				INFOPLIST_FILE = SwiftLocationTriviaDelegatesUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.flatironschool.SwiftLocationTriviaDelegatesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = SwiftLocationTriviaDelegates;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2B5A68B11D36B63B00145CF2 /* Build configuration list for PBXProject "SwiftLocationTriviaDelegates" */ = {
+		2B5C58D81D42629200273743 /* Build configuration list for PBXProject "SwiftLocationTriviaDelegates" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2B5A68DC1D36B63B00145CF2 /* Debug */,
-				2B5A68DD1D36B63B00145CF2 /* Release */,
+				2B5C58ED1D42629200273743 /* Debug */,
+				2B5C58EE1D42629200273743 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2B5A68DE1D36B63B00145CF2 /* Build configuration list for PBXNativeTarget "SwiftLocationTriviaDelegates" */ = {
+		2B5C58EF1D42629200273743 /* Build configuration list for PBXNativeTarget "SwiftLocationTriviaDelegates" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2B5A68DF1D36B63B00145CF2 /* Debug */,
-				2B5A68E01D36B63B00145CF2 /* Release */,
+				2B5C58F01D42629200273743 /* Debug */,
+				2B5C58F11D42629200273743 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2B5A68E11D36B63B00145CF2 /* Build configuration list for PBXNativeTarget "SwiftLocationTriviaDelegatesTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2B5A68E21D36B63B00145CF2 /* Debug */,
-				2B5A68E31D36B63B00145CF2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2B5A68E41D36B63B00145CF2 /* Build configuration list for PBXNativeTarget "SwiftLocationTriviaDelegatesUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2B5A68E51D36B63B00145CF2 /* Debug */,
-				2B5A68E61D36B63B00145CF2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2B5A68AE1D36B63B00145CF2 /* Project object */;
+	rootObject = 2B5C58D51D42629200273743 /* Project object */;
 }
