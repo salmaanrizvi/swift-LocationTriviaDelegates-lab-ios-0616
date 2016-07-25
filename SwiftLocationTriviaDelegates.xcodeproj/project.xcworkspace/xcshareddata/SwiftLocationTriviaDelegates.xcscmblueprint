@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CAB1EA697E2C6C1F2CC12241211040B1EF5BC48D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C49E531097A6DDA1839A084C6B4524E65F07A89B" : 0,
+    "CAB1EA697E2C6C1F2CC12241211040B1EF5BC48D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B3EBBFA2-8FB5-48A6-872B-431A834A4D60",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C49E531097A6DDA1839A084C6B4524E65F07A89B" : "github-repo-list-swift\/",
+    "CAB1EA697E2C6C1F2CC12241211040B1EF5BC48D" : "swift-LocationTriviaDelegates-lab\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SwiftLocationTriviaDelegates",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SwiftLocationTriviaDelegates.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:learn-co-curriculum\/github-repo-list-swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C49E531097A6DDA1839A084C6B4524E65F07A89B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:learn-co-curriculum\/swift-LocationTriviaDelegates-lab.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CAB1EA697E2C6C1F2CC12241211040B1EF5BC48D"
+    }
+  ]
+}
