@@ -7,21 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B5C58E11D42629200273743 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5C58E01D42629200273743 /* AppDelegate.swift */; };
-		2B5C58E81D42629200273743 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B5C58E71D42629200273743 /* Assets.xcassets */; };
-		2B5C58EB1D42629200273743 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5C58E91D42629200273743 /* LaunchScreen.storyboard */; };
 		2B5C59011D42641200273743 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5C59001D42641200273743 /* Location.swift */; };
 		2B5C59051D4264BA00273743 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5C59041D4264BA00273743 /* Main.storyboard */; };
+		2B95E50B1D46946D00A3CE03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B95E50A1D46946D00A3CE03 /* AppDelegate.swift */; };
+		2B95E50D1D4694A900A3CE03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B95E50C1D4694A900A3CE03 /* Assets.xcassets */; };
+		2B95E50F1D4694C100A3CE03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B95E50E1D4694C100A3CE03 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2B5C58DD1D42629200273743 /* SwiftLocationTriviaDelegates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLocationTriviaDelegates.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B5C58E01D42629200273743 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2B5C58E71D42629200273743 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2B5C58EA1D42629200273743 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2B5C58EC1D42629200273743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B5C59001D42641200273743 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Location.swift; path = ../Location.swift; sourceTree = "<group>"; };
 		2B5C59041D4264BA00273743 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		2B95E50A1D46946D00A3CE03 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		2B95E50C1D4694A900A3CE03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../github-repo-list-swift/github-repo-list-swift/Assets.xcassets"; sourceTree = "<group>"; };
+		2B95E50E1D4694C100A3CE03 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +53,11 @@
 		2B5C58DF1D42629200273743 /* SwiftLocationTriviaDelegates */ = {
 			isa = PBXGroup;
 			children = (
+				2B95E50C1D4694A900A3CE03 /* Assets.xcassets */,
 				2B5C59041D4264BA00273743 /* Main.storyboard */,
 				2B5C59001D42641200273743 /* Location.swift */,
-				2B5C58E01D42629200273743 /* AppDelegate.swift */,
-				2B5C58E71D42629200273743 /* Assets.xcassets */,
-				2B5C58E91D42629200273743 /* LaunchScreen.storyboard */,
-				2B5C58EC1D42629200273743 /* Info.plist */,
+				2B95E50A1D46946D00A3CE03 /* AppDelegate.swift */,
+				2B95E50E1D4694C100A3CE03 /* LaunchScreen.storyboard */,
 			);
 			path = SwiftLocationTriviaDelegates;
 			sourceTree = "<group>";
@@ -122,9 +120,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B95E50F1D4694C100A3CE03 /* LaunchScreen.storyboard in Resources */,
 				2B5C59051D4264BA00273743 /* Main.storyboard in Resources */,
-				2B5C58EB1D42629200273743 /* LaunchScreen.storyboard in Resources */,
-				2B5C58E81D42629200273743 /* Assets.xcassets in Resources */,
+				2B95E50D1D4694A900A3CE03 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,23 +133,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B5C58E11D42629200273743 /* AppDelegate.swift in Sources */,
+				2B95E50B1D46946D00A3CE03 /* AppDelegate.swift in Sources */,
 				2B5C59011D42641200273743 /* Location.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		2B5C58E91D42629200273743 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2B5C58EA1D42629200273743 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2B5C58ED1D42629200273743 /* Debug */ = {
